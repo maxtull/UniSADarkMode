@@ -40,7 +40,8 @@ h6>span,
 #region-main span:not(#paging-bar-0 span),
 .generaltable,
 ol.breadcrumb li.breadcrumb-item a,
-.card-body h2 {
+.card-body h2,
+div[role="main"]>h2 {
     color: #ffffff !important;
 }
 
@@ -78,7 +79,8 @@ ol.breadcrumb li.breadcrumb-item a,
 .popover-region-content-container,
 .generaltable tbody tr:nth-of-type(odd),
 .card .dashboard-card,
-.overlay-icon-container {
+.overlay-icon-container,
+.gradingform_rubric .criterion.odd {
     background-color: #1F1F1F !important;
 }
 
@@ -94,8 +96,11 @@ ol.breadcrumb li.breadcrumb-item a,
 .side-navigation .list-group-item .list-group-item-inner-container,
 .drawer-region .list-group-item .list-group-item-inner-container,
 #nav-drawer .side-navigation,
-.popover-region-header-container {
-    border-bottom: 1px solid #3D3D3D !important;
+.popover-region-header-container,
+.generaltable th,
+.generaltable td,
+.gradingform_rubric .criterion {
+    border-color: #3D3D3D !important;
 }
 
 .card-body .list-group-item,
@@ -111,7 +116,8 @@ ol.breadcrumb li.breadcrumb-item a,
 
 #region-main .course-content .section-navigation.navigationtitle,
 h2.card-title,
-h4.card-title {
+h4.card-title,
+div[role="main"] > h2 {
     border-color: #1f1f1f !important;
 }
 
@@ -174,4 +180,9 @@ h4.card-title {
     100% {
         background-color: #292929;
     }
+}
+
+.generaltable td:hover,
+.generaltable tr:hover {
+    color: inherit !important;
 }
