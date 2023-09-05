@@ -1,0 +1,145 @@
+body {
+    background-color: #1F1F1F !important;
+    color: white !important;
+}
+
+#region-main,
+.popover-region-container,
+.popover-region-container .list-group-item,
+.card,
+.card .page-link,
+.card .page-item.disabled .page-link,
+.dropdown-menu {
+    background-color: #292929 !important;
+    border: 1px solid #3D3D3D !important;
+}
+
+.section-navigation h2.sectionname,
+h1>span,
+h2>span,
+h3>span,
+h4>span,
+h5>span,
+h6>span,
+.popover-region-header-text {
+    color: #dee2e6 !important;
+}
+
+.nav-controlpanel {
+    background-color: #292929 !important;
+    border-bottom: 1px solid #3D3D3D !important;
+}
+
+.btn-outline-secondary {
+    background-color: #1F1F1F !important;
+    border: 1px solid #3D3D3D !important;
+}
+
+#region-main p,
+#region-main span,
+.generaltable,
+ol.breadcrumb li.breadcrumb-item a,
+.card-body h2 {
+    color: #ffffff !important;
+}
+
+#region-main a,
+.card-body a {
+    color: #6ea8fe !important;
+    border-bottom: none !important;
+}
+
+#region-main a:hover,
+#region-main a:focus,
+.card-body a:hover,
+.card-body a:focus {
+    color: #8bb9fe !important;
+    background: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+#region-main p a {
+    background: none !important;
+}
+
+.side-navigation,
+.side-navigation .nav-item,
+.side-navigation .nav-link,
+.navbar .top-nav-container,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action {
+    background-color: #0A0A0A !important;
+}
+
+.drawer-region,
+.nav-drawer,
+.popover-region-header-container,
+.popover-region-content-container,
+.generaltable tbody tr:nth-of-type(odd),
+.card .dashboard-card {
+    background-color: #1F1F1F !important;
+}
+
+.side-navigation .nav-item .nav-link[aria-expanded="true"],
+.side-navigation .nav-item.active .nav-link,
+.side-navigation .nav-item.previous-active .nav-link,
+#nav-drawer .list-group-item.active .list-group-item-inner-container,
+#nav-drawer .list-group-item.activechild .list-group-item-inner-container {
+    box-shadow: none !important;
+    background-color: #1A1A1A !important;
+}
+
+.side-navigation .list-group-item .list-group-item-inner-container,
+.drawer-region .list-group-item .list-group-item-inner-container,
+#nav-drawer .side-navigation,
+.popover-region-header-container {
+    border-bottom: 1px solid #3D3D3D !important;
+}
+
+.card-body .list-group-item,
+#user-nav-collapse .list-group-item .list-group-item-action {
+    background-color: #292929 !important;
+}
+
+#page-footer .footer-links,
+#page-footer .footer-info {
+    box-shadow: 0 200vh 0 200vh #0a0a0a !important;
+    background: #0a0a0a !important;
+}
+
+#region-main .course-content .section-navigation.navigationtitle,
+.mod-indent-outer hr,
+h2.card-title,
+h4.card-title {
+    border-color: #1f1f1f !important;
+}
+
+.block .dropdown>.btn,
+.block .gradingform_guide.editor .addcomment .dropdown>input,
+.gradingform_guide.editor .addcomment .block .dropdown>input,
+.block .gradingform_guide.editor .addcriterion .dropdown>input,
+.gradingform_guide.editor .addcriterion .block .dropdown>input,
+.block .gradingform_rubric .criterion .addlevel .dropdown>input,
+.gradingform_rubric .criterion .addlevel .block .dropdown>input,
+.block .gradingform_rubric.editor .addcriterion .dropdown>input,
+.gradingform_rubric.editor .addcriterion .block .dropdown>input,
+.block .modchoosercontainer .optionscontainer .option .dropdown>.optioninfo,
+.modchoosercontainer .optionscontainer .option .block .dropdown>.optioninfo,
+.block .modchoosercontainer .searchresultitemscontainer .option .dropdown>.optioninfo,
+.modchoosercontainer .searchresultitemscontainer .option .block .dropdown>.optioninfo,
+.block .btn-group>.btn,
+.block .gradingform_guide.editor .addcomment .btn-group>input,
+.gradingform_guide.editor .addcomment .block .btn-group>input,
+.block .gradingform_guide.editor .addcriterion .btn-group>input,
+.gradingform_guide.editor .addcriterion .block .btn-group>input,
+.block .gradingform_rubric .criterion .addlevel .btn-group>input,
+.gradingform_rubric .criterion .addlevel .block .btn-group>input,
+.block .gradingform_rubric.editor .addcriterion .btn-group>input,
+.gradingform_rubric.editor .addcriterion .block .btn-group>input,
+.block .modchoosercontainer .optionscontainer .option .btn-group>.optioninfo,
+.modchoosercontainer .optionscontainer .option .block .btn-group>.optioninfo,
+.block .modchoosercontainer .searchresultitemscontainer .option .btn-group>.optioninfo,
+.modchoosercontainer .searchresultitemscontainer .option .block .btn-group>.optioninfo,
+.dropdown-menu a {
+    color: #ffffff !important;
+}

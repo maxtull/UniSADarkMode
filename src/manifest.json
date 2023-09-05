@@ -1,0 +1,23 @@
+{
+    "name": "UniSA Dark Mode",
+    "version": "1.0.0",
+    "description": "An extension that provides dark-mode for UniSA LearnOnline.",
+    "manifest_version": 3,
+    "icons": {},
+    "permissions": [
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://lo.unisa.edu.au/*"
+            ],
+            "js": [],
+            "css": [
+                "css/lo.css"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "homepage_url": "https://github.com/FNLeaksAndInfo/UniSADarkMode"
+}
