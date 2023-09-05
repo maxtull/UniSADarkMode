@@ -9,9 +9,10 @@ body {
 .card,
 .card .page-link,
 .card .page-item.disabled .page-link,
-.dropdown-menu {
+.dropdown-menu,
+.dropdown-divider {
     background-color: #292929 !important;
-    border: 1px solid #3D3D3D !important;
+    border-color: #3D3D3D !important;
 }
 
 .section-navigation h2.sectionname,
@@ -36,23 +37,23 @@ h6>span,
 }
 
 #region-main p,
-#region-main span,
+#region-main span:not(#paging-bar-0 span),
 .generaltable,
 ol.breadcrumb li.breadcrumb-item a,
 .card-body h2 {
     color: #ffffff !important;
 }
 
-#region-main a,
-.card-body a {
+#region-main a:not(.dropdown-item, .page-link, .btn),
+.card-body a:not(.dropdown-item, .page-link, .btn) {
     color: #6ea8fe !important;
     border-bottom: none !important;
 }
 
-#region-main a:hover,
-#region-main a:focus,
-.card-body a:hover,
-.card-body a:focus {
+#region-main a:not(.dropdown-item, .page-link, .btn):hover,
+#region-main a:not(.dropdown-item, .page-link, .btn):focus,
+.card-body a:not(.dropdown-item, .page-link, .btn):hover,
+.card-body a:not(.dropdown-item, .page-link, .btn):focus {
     color: #8bb9fe !important;
     background: none !important;
     border-bottom: none !important;
@@ -76,7 +77,8 @@ ol.breadcrumb li.breadcrumb-item a,
 .popover-region-header-container,
 .popover-region-content-container,
 .generaltable tbody tr:nth-of-type(odd),
-.card .dashboard-card {
+.card .dashboard-card,
+.overlay-icon-container {
     background-color: #1F1F1F !important;
 }
 
@@ -108,7 +110,6 @@ ol.breadcrumb li.breadcrumb-item a,
 }
 
 #region-main .course-content .section-navigation.navigationtitle,
-.mod-indent-outer hr,
 h2.card-title,
 h4.card-title {
     border-color: #1f1f1f !important;
@@ -140,6 +141,37 @@ h4.card-title {
 .modchoosercontainer .optionscontainer .option .block .btn-group>.optioninfo,
 .block .modchoosercontainer .searchresultitemscontainer .option .btn-group>.optioninfo,
 .modchoosercontainer .searchresultitemscontainer .option .block .btn-group>.optioninfo,
-.dropdown-menu a {
+.dropdown-menu a,
+.card-body .dropdown-menu,
+.page-link {
     color: #ffffff !important;
+}
+
+.card small,
+.muted,
+.text-muted,
+.page-item.disabled .page-link {
+    color: rgba(222, 226, 230, 0.75) !important;
+}
+
+.formattedusercontent hr {
+    border-color: rgba(222, 226, 230, 0.75) !important;
+}
+
+.bg-pulse-grey {
+    animation: bg-pulse-dark 2s infinite linear !important;
+}
+
+@keyframes bg-pulse-dark {
+    0% {
+        background-color: #292929;
+    }
+
+    50% {
+        background-color: #1F1F1F;
+    }
+
+    100% {
+        background-color: #292929;
+    }
 }
