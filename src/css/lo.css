@@ -31,7 +31,8 @@ h6>span,
     border-bottom: 1px solid #3D3D3D !important;
 }
 
-.btn-outline-secondary {
+.btn-outline-secondary,
+.moodle-dialogue-base .moodle-dialogue-wrap {
     background-color: #1F1F1F !important;
     border: 1px solid #3D3D3D !important;
 }
@@ -104,7 +105,8 @@ div[role="main"]>h2 {
 }
 
 .card-body .list-group-item,
-#user-nav-collapse .list-group-item .list-group-item-action {
+#user-nav-collapse .list-group-item .list-group-item-action,
+.fp-iconview .fp-filename-field .fp-filename {
     background-color: #292929 !important;
 }
 
@@ -149,7 +151,8 @@ div[role="main"] > h2 {
 .modchoosercontainer .searchresultitemscontainer .option .block .btn-group>.optioninfo,
 .dropdown-menu a,
 .card-body .dropdown-menu,
-.page-link {
+.page-link,
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
     color: #ffffff !important;
 }
 
