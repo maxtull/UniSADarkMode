@@ -152,7 +152,8 @@ div[role="main"] > h2 {
 .dropdown-menu a,
 .card-body .dropdown-menu,
 .page-link,
-.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd,
+.path-mod-assign .gradingform_rubric {
     color: #ffffff !important;
 }
 
