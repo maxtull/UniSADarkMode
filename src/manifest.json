@@ -1,12 +1,12 @@
 {
     "name": "UniSA Dark Mode",
     "version": "1.0.0",
-    "description": "An extension that provides dark-mode for UniSA LearnOnline.",
+    "description": "An extension that provides dark-mode for University of South Australia LearnOnline.",
     "manifest_version": 3,
-    "icons": {},
-    "permissions": [
-        "tabs"
-    ],
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [],
     "content_scripts": [
         {
             "matches": [
