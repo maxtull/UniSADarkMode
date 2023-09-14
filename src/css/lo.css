@@ -10,7 +10,11 @@ body {
 .card .page-link,
 .card .page-item.disabled .page-link,
 .dropdown-menu,
-.dropdown-divider {
+.dropdown-divider,
+.message-app .list-group-item,
+.message-app textarea[class*="bg-light"],
+.message-app input,
+.message-app .simplesearchform .btn-submit {
     background-color: #292929 !important;
     border-color: #3D3D3D !important;
 }
@@ -32,7 +36,10 @@ h6>span,
 }
 
 .btn-outline-secondary,
-.moodle-dialogue-base .moodle-dialogue-wrap {
+.moodle-dialogue-base .moodle-dialogue-wrap,
+.que .formulation,
+.que .info,
+.draghome {
     background-color: #1F1F1F !important;
     border: 1px solid #3D3D3D !important;
 }
@@ -81,7 +88,16 @@ div[role="main"]>h2 {
 .generaltable tbody tr:nth-of-type(odd),
 .card .dashboard-card,
 .overlay-icon-container,
-.gradingform_rubric .criterion.odd {
+.gradingform_rubric .criterion.odd,
+.no-overflow table[style*="border-radius:6px"],
+.no-overflow div[style*="background: white"],
+.no-overflow div[style*="background-color: #fff"],
+.path-mod-quiz #mod_quiz_navblock .qnbutton,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.notyetanswered .trafficlight,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight,
+.content-item-container,
+.message-app,
+.message-app div[class*="bg-white"] {
     background-color: #1F1F1F !important;
 }
 
@@ -100,7 +116,8 @@ div[role="main"]>h2 {
 .popover-region-header-container,
 .generaltable th,
 .generaltable td,
-.gradingform_rubric .criterion {
+.gradingform_rubric .criterion,
+.path-mod-quiz #mod_quiz_navblock .qnbutton.thispage .thispageholder {
     border-color: #3D3D3D !important;
 }
 
@@ -153,13 +170,20 @@ div[role="main"]>h2 {
 .card-body .dropdown-menu,
 .page-link,
 .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd,
-.path-mod-assign .gradingform_rubric {
+.path-mod-assign .gradingform_rubric,
+.que .formulation,
+.path-mod-quiz #mod_quiz_navblock .qnbutton,
+.popover-region-content-container .link-title,
+.message-app .simplesearchform .btn-submit,
+.text-dark
+/* text-dark is overridden by the native css, maybe fix this with js one day */ {
     color: #ffffff !important;
 }
 
 .card small,
 .muted,
 .text-muted,
+/* text-muted is overridden by the native css, maybe fix this with js one day */
 .page-item.disabled .page-link {
     color: rgba(222, 226, 230, 0.75) !important;
 }
@@ -191,16 +215,65 @@ div[role="main"]>h2 {
     color: inherit !important;
 }
 
-.tii_checkagainstnote,
-.tii_anonblindmarkingnote,
-.tii_genspeednote {
-    background: #032830 !important;
-    border: 1px solid #087990 !important;
-    color: #6edff6 !important;
-}
-
 .fp-iconview .fp-thumbnail,
 .fp-iconview .fp-thumbnail img {
     border: none !important;
     box-shadow: none !important;
+}
+
+.que .outcome,
+.que .comment,
+.alert-warning {
+    background-color: #332701 !important;
+    border-color: #997404 !important;
+    color: #ffda6a !important;
+}
+
+.alert-danger {
+    background-color: #2c0b0e !important;
+    border-color: #842029 !important;
+    color: #ea868f !important;
+}
+
+.tii_checkagainstnote,
+.tii_anonblindmarkingnote,
+.tii_genspeednote,
+.alert-info {
+    background: #032830 !important;
+    border-color: #087990 !important;
+    color: #6edff6 !important;
+}
+
+.alert,
+.alert li,
+.alert p,
+.alert h1,
+.alert h2,
+.alert h3,
+.alert h4,
+.alert h5,
+.alert h6 {
+    color: #ffffff !important;
+}
+
+.path-mod-assign td.submissionstatussubmitted,
+.path-mod-assign div.submissionstatussubmitted,
+.path-mod-assign a:link.submissionstatussubmitted,
+.path-mod-assign td.earlysubmission,
+.path-mod-assign div.earlysubmission {
+    color: #ffffff !important;
+    background-color: #051b11 !important;
+}
+
+.path-mod-assign td.latesubmission,
+.path-mod-assign a:link.latesubmission,
+.path-mod-assign div.latesubmission {
+    color: #ffffff !important;
+    background-color: #2c0b0e !important;
+}
+
+table.quizreviewsummary th.cell,
+table.quizreviewsummary td.cell,
+.que.multichoice .answer .specificfeedback {
+    background: none !important;
 }
