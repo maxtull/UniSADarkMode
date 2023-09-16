@@ -49,7 +49,11 @@ h6>span,
 .generaltable,
 ol.breadcrumb li.breadcrumb-item a,
 .card-body h2,
-div[role="main"]>h2 {
+div[role="main"]>h2,
+.no-overflow table[style*="border-radius:6px"],
+.no-overflow div[style*="background: white"],
+.no-overflow div[style*="background-color: #fff"],
+.no-overflow div[style*="background-color: rgb(255, 255, 255)"] {
     color: #ffffff !important;
 }
 
@@ -92,12 +96,15 @@ div[role="main"]>h2 {
 .no-overflow table[style*="border-radius:6px"],
 .no-overflow div[style*="background: white"],
 .no-overflow div[style*="background-color: #fff"],
+.no-overflow div[style*="background-color: rgb(255, 255, 255)"],
+.no-overflow span[style*="background-color: rgb(255, 255, 255)"],
 .path-mod-quiz #mod_quiz_navblock .qnbutton,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.notyetanswered .trafficlight,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight,
 .content-item-container,
 .message-app,
-.message-app div[class*="bg-white"] {
+.message-app div[class*="bg-white"],
+.forumpost .header {
     background-color: #1F1F1F !important;
 }
 
@@ -175,6 +182,7 @@ div[role="main"]>h2 {
 .path-mod-quiz #mod_quiz_navblock .qnbutton,
 .popover-region-content-container .link-title,
 .message-app .simplesearchform .btn-submit,
+.table,
 .text-dark
 /* text-dark is overridden by the native css, maybe fix this with js one day */ {
     color: #ffffff !important;
