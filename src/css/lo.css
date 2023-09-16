@@ -104,7 +104,8 @@ div[role="main"]>h2,
 .content-item-container,
 .message-app,
 .message-app div[class*="bg-white"],
-.forumpost .header {
+.forumpost .header,
+.badge-secondary {
     background-color: #1F1F1F !important;
 }
 
