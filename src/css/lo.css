@@ -14,7 +14,10 @@ body {
 .message-app .list-group-item,
 .message-app textarea[class*="bg-light"],
 .message-app input,
-.message-app .simplesearchform .btn-submit {
+.message-app .simplesearchform .btn-submit,
+.page-link,
+.nav-tabs .nav-link.active,
+.nav-link.active:not(:disabled):not(.disabled).active {
     background-color: #292929 !important;
     border-color: #3D3D3D !important;
 }
@@ -33,6 +36,11 @@ h6>span,
 .nav-controlpanel {
     background-color: #292929 !important;
     border-bottom: 1px solid #3D3D3D !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-link.active:not(:disabled):not(.disabled).active {
+    border: 1px solid;
 }
 
 .btn-outline-secondary,
@@ -125,7 +133,8 @@ div[role="main"]>h2,
 .generaltable th,
 .generaltable td,
 .gradingform_rubric .criterion,
-.path-mod-quiz #mod_quiz_navblock .qnbutton.thispage .thispageholder {
+.path-mod-quiz #mod_quiz_navblock .qnbutton.thispage .thispageholder,
+.nav.nav-tabs {
     border-color: #3D3D3D !important;
 }
 
@@ -269,7 +278,8 @@ div[role="main"]>h2 {
 .path-mod-assign div.submissionstatussubmitted,
 .path-mod-assign a:link.submissionstatussubmitted,
 .path-mod-assign td.earlysubmission,
-.path-mod-assign div.earlysubmission {
+.path-mod-assign div.earlysubmission,
+.gradingform_rubric .criterion .level.checked {
     color: #ffffff !important;
     background-color: #051b11 !important;
 }
