@@ -17,8 +17,20 @@ body {
 .message-app .simplesearchform .btn-submit,
 .page-link,
 .nav-tabs .nav-link.active,
-.nav-link.active:not(:disabled):not(.disabled).active {
+.nav-link.active:not(:disabled):not(.disabled).active,
+.userprofile .page-context-header .btn,
+.form-control,
+.btn-secondary,
+.btn-primary {
     background-color: #292929 !important;
+    border-color: #3D3D3D !important;
+}
+
+.userprofile .page-context-header .btn:hover,
+.simplesearchform .btn-submit,
+.btn-secondary:hover,
+.btn-primary:hover {
+    background-color: #1F1F1F !important;
     border-color: #3D3D3D !important;
 }
 
@@ -52,21 +64,20 @@ h6>span,
     border: 1px solid #3D3D3D !important;
 }
 
-#region-main p,
-#region-main span:not(#paging-bar-0 span),
-.generaltable,
-ol.breadcrumb li.breadcrumb-item a,
-.card-body h2,
-div[role="main"]>h2,
-.no-overflow table[style*="border-radius:6px"],
-.no-overflow div[style*="background: white"],
-.no-overflow div[style*="background-color: #fff"],
-.no-overflow div[style*="background-color: rgb(255, 255, 255)"] {
-    color: #ffffff !important;
+.no-overflow a[style*="background-color: rgb(255, 255, 255)"],
+.forumpost.unread .row.header,
+.path-course-view .unread,
+span.unread {
+    background-color: transparent !important;
+}
+
+.no-overflow div[style*="border: 1px solid #b5bef6"] {
+    border-color: #ffffff !important;
 }
 
 #region-main a:not(.dropdown-item, .page-link, .btn),
-.card-body a:not(.dropdown-item, .page-link, .btn) {
+.card-body a:not(.dropdown-item, .page-link, .btn),
+.table thead th {
     color: #6ea8fe !important;
     border-bottom: none !important;
 }
@@ -105,7 +116,6 @@ div[role="main"]>h2,
 .no-overflow div[style*="background: white"],
 .no-overflow div[style*="background-color: #fff"],
 .no-overflow div[style*="background-color: rgb(255, 255, 255)"],
-.no-overflow span[style*="background-color: rgb(255, 255, 255)"],
 .path-mod-quiz #mod_quiz_navblock .qnbutton,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.notyetanswered .trafficlight,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight,
@@ -134,14 +144,21 @@ div[role="main"]>h2,
 .generaltable td,
 .gradingform_rubric .criterion,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.thispage .thispageholder,
-.nav.nav-tabs {
+.nav.nav-tabs,
+.table thead th,
+.table th,
+.table td,
+.border-bottom,
+.section li.activity.hasinfo,
+.btn-secondary {
     border-color: #3D3D3D !important;
 }
 
 .card-body .list-group-item,
 #user-nav-collapse .list-group-item .list-group-item-action,
 .fp-iconview .fp-filename-field .fp-filename,
-#quiz-timer-wrapper #quiz-timer {
+#quiz-timer-wrapper #quiz-timer,
+.no-overflow span[style*="background-color: rgb(255, 255, 255)"] {
     background-color: #292929 !important;
 }
 
@@ -194,8 +211,31 @@ div[role="main"]>h2 {
 .popover-region-content-container .link-title,
 .message-app .simplesearchform .btn-submit,
 .table,
-.text-dark
-/* text-dark is overridden by the native css, maybe fix this with js one day */ {
+.text-dark,
+/* text-dark is overridden by the native css, maybe fix this with js one day */
+.btn-outline-primary,
+.btn-outline-primary,
+.path-mod-forum .nav-controlpanel ul>li:nth-child(2) aside>div:first-child .simplesearchform button[type="submit"].btn-submit,
+.btn-secondary,
+.alert,
+.alert li,
+.alert p,
+.alert h1,
+.alert h2,
+.alert h3,
+.alert h4,
+.alert h5,
+.alert h6,
+#region-main p,
+#region-main span:not(#paging-bar-0 span),
+.generaltable,
+ol.breadcrumb li.breadcrumb-item a,
+.card-body h2,
+div[role="main"]>h2,
+.no-overflow table[style*="border-radius:6px"],
+.no-overflow div[style*="background: white"],
+.no-overflow div[style*="background-color: #fff"],
+.no-overflow div[style*="background-color: rgb(255, 255, 255)"] {
     color: #ffffff !important;
 }
 
@@ -263,18 +303,6 @@ div[role="main"]>h2 {
     color: #6edff6 !important;
 }
 
-.alert,
-.alert li,
-.alert p,
-.alert h1,
-.alert h2,
-.alert h3,
-.alert h4,
-.alert h5,
-.alert h6 {
-    color: #ffffff !important;
-}
-
 .path-mod-assign td.submissionstatussubmitted,
 .path-mod-assign div.submissionstatussubmitted,
 .path-mod-assign a:link.submissionstatussubmitted,
@@ -296,4 +324,10 @@ table.quizreviewsummary th.cell,
 table.quizreviewsummary td.cell,
 .que.multichoice .answer .specificfeedback {
     background: none !important;
+}
+
+.btn-primary,
+.btn-secondary {
+    box-shadow: none !important;
+    outline: none !important;
 }
