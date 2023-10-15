@@ -140,7 +140,8 @@ div[role="main"]>h2,
 
 .card-body .list-group-item,
 #user-nav-collapse .list-group-item .list-group-item-action,
-.fp-iconview .fp-filename-field .fp-filename {
+.fp-iconview .fp-filename-field .fp-filename,
+#quiz-timer-wrapper #quiz-timer {
     background-color: #292929 !important;
 }
 
