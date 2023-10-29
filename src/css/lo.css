@@ -81,7 +81,8 @@ span.unread {
 
 #region-main a:not(.dropdown-item, .page-link, .btn, .fp-path-folder-name),
 .card-body a:not(.dropdown-item, .page-link, .btn),
-.table thead th {
+.table thead th,
+.btn-link {
     color: #6ea8fe !important;
     border-bottom: none !important;
 }
@@ -350,4 +351,13 @@ table.quizreviewsummary td.cell,
 .btn-secondary {
     box-shadow: none !important;
     outline: none !important;
+}
+
+#quiz-timer-wrapper #quiz-timer {
+    border-color: #842029 !important;
+}
+
+.visual-scroll-x::-webkit-scrollbar-track,
+.visual-scroll-x::-webkit-scrollbar-thumb {
+    border-right: none !important;
 }
