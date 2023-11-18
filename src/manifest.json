@@ -1,6 +1,6 @@
 {
     "name": "UniSA Dark Mode",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "An extension that provides dark-mode for University of South Australia LearnOnline.",
     "manifest_version": 3,
     "icons": {
@@ -19,5 +19,5 @@
             "run_at": "document_start"
         }
     ],
-    "homepage_url": "https://github.com/FNLeaksAndInfo/UniSADarkMode"
+    "homepage_url": "https://github.com/maxtull/UniSADarkMode"
 }
