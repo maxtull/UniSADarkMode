@@ -1,5 +1,5 @@
 body {
-    background-color: #1F1F1F !important;
+    background-color: #141414 !important;
     color: white !important;
 }
 
@@ -17,7 +17,6 @@ body {
 .message-app .simplesearchform .btn-submit,
 .page-link,
 .nav-tabs .nav-link.active,
-#nav-drawer .nav-link.active:not(:disabled):not(.disabled).active,
 .userprofile .page-context-header .btn,
 .btn-secondary,
 .btn-primary,
@@ -30,11 +29,118 @@ body {
     border-color: #3D3D3D !important;
 }
 
+#nav-drawer,
+.navbar .top-nav-container,
+.nav-controlpanel {
+    box-shadow: none !important;
+}
+
+#nav-drawer .list-group,
+.nav-drawer {
+    padding-top: 8px !important;
+}
+
+#nav-drawer .nav-link {
+    margin: 0px 8px !important;
+    border-radius: 8px !important;
+}
+
+#nav-drawer .nav-link.active:not(:disabled):not(.disabled).active {
+    border: none !important;
+    background-color: transparent !important;
+    color: #479EF5 !important;
+}
+
+#nav-drawer li.nav-item {
+    margin-left: 2px !important;
+}
+
+#nav-drawer li.nav-item.active {
+    border-left: #2B88D8 2px solid !important;
+}
+
+.side-navigation .nav-item .nav-link.hover,
+.side-navigation .nav-item .nav-link:hover,
+.side-navigation .nav-item .nav-link[aria-expanded="true"],
+.side-navigation .nav-item .nav-link.hover,
+#nav-drawer .nav-item .nav-link.hover,
+#nav-drawer .nav-link.active:not(:disabled):not(.disabled).active:hover {
+    background-color: #1A1A1A !important;
+}
+
+.drawer-region .list-group-item .list-group-item-inner-container {
+    border-bottom: none !important;
+}
+
+.nav-drawer>.list-group-item {
+    margin: 0px 8px !important;
+}
+
+.drawer-region .list-group-item .list-group-item-inner-container {
+    border-radius: 4px !important;
+}
+
+.drawer-region .list-group-item .list-group-item-inner-container:hover {
+    background-color: #333333 !important;
+}
+
+#nav-drawer .list-group-item.active,
+#nav-drawer .list-group-item.activechild {
+    background: none !important;
+}
+
+.side-navigation .list-group-item .list-group-item-inner-container.active .locator,
+.drawer-region .list-group-item .list-group-item-inner-container.active .locator {
+    display: none !important;
+}
+
+#nav-drawer .list-group-item.active .list-group-item-inner-container .active {
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+}
+
+#nav-drawer .list-group-item.active .list-group-item-action,
+#nav-drawer .list-group-item.activechild .list-group-item-action,
+#nav-drawer .list-group-item.active .list-group-item-inner-container,
+#nav-drawer .list-group-item.activechild .list-group-item-inner-container {
+    margin-left: 0px !important;
+}
+
+#nav-drawer .list-group-item.active>.list-group-item-inner-container.active {
+    background-color: #0A2E4A !important;
+}
+
+.drawer-region .list-group-item .toggle .icon {
+    font-size: x-small !important;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action:hover>span>span.usertext,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action:focus>span>span.usertext,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action:active>span>span.usertext {
+    border: none !important;
+}
+
+#nav-drawer .list-group-item.activechild .list-group-item-inner-container {
+    background: none !important;
+}
+
+.form-control {
+    height: calc(1.25em + 1.5rem - 2px) !important;
+}
+
+.nav-controlpanel .clockcontainer .fullclock {
+    border: none !important;
+    padding: 0px !important;
+}
+
 .userprofile .page-context-header .btn:hover,
 .simplesearchform .btn-submit,
 .btn-secondary:hover,
-.btn-primary:hover {
-    background-color: #1F1F1F !important;
+.btn-primary:hover,
+.course-content .section .activity-item {
+    background-color: #141414 !important;
     border-color: #3D3D3D !important;
 }
 
@@ -63,8 +169,9 @@ h6>span,
 .moodle-dialogue-base .moodle-dialogue-wrap,
 .que .formulation,
 .que .info,
-.draghome {
-    background-color: #1F1F1F !important;
+.draghome,
+.path-mod .activity-header:not(:empty) {
+    background-color: #141414 !important;
     border: 1px solid #3D3D3D !important;
 }
 
@@ -105,7 +212,8 @@ span.unread {
 .side-navigation .nav-item,
 .side-navigation .nav-link,
 .navbar .top-nav-container,
-.usermenu.list-item-nav>.list-group-item>.list-group-item-action {
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action,
+#nav-drawer-menu-list>.overflow-auto.h-100 {
     background-color: #0A0A0A !important;
 }
 
@@ -128,16 +236,16 @@ span.unread {
 .message-app div[class*="bg-white"],
 .forumpost .header,
 .badge-secondary {
-    background-color: #1F1F1F !important;
+    background-color: #141414 !important;
 }
 
 .side-navigation .nav-item .nav-link[aria-expanded="true"],
 .side-navigation .nav-item.active .nav-link,
 .side-navigation .nav-item.previous-active .nav-link,
 #nav-drawer .list-group-item.active .list-group-item-inner-container,
-#nav-drawer .list-group-item.activechild .list-group-item-inner-container {
+#nav-drawer .list-group-item.activechild>.list-group-item-inner-container {
     box-shadow: none !important;
-    background-color: #1A1A1A !important;
+    background: none !important;
 }
 
 .side-navigation .list-group-item .list-group-item-inner-container,
@@ -156,8 +264,10 @@ span.unread {
 .btn-secondary,
 .notification-area .control-area,
 .notification-area .content-area .header,
-/* border-bottom is overridden by the native css */
-.border-bottom {
+.border-bottom,
+.secondary-navigation .navigation,
+#page-header,
+.nav.nav-tabs .nav-link.active {
     border-color: #3D3D3D !important;
 }
 
@@ -180,7 +290,7 @@ span.unread {
 h2.card-title,
 h4.card-title,
 div[role="main"]>h2 {
-    border-color: #1f1f1f !important;
+    border-color: #141414 !important;
 }
 
 .block .dropdown>.btn,
@@ -220,7 +330,6 @@ div[role="main"]>h2 {
 .message-app .simplesearchform .btn-submit,
 .table,
 .text-dark,
-/* text-dark is overridden by the native css */
 .btn-outline-primary,
 .btn-outline-primary,
 .path-mod-forum .nav-controlpanel ul>li:nth-child(2) aside>div:first-child .simplesearchform button[type="submit"].btn-submit,
@@ -256,7 +365,6 @@ div[role="main"]>h2,
 .card small,
 .muted,
 .text-muted,
-/* text-muted is overridden by the native css */
 .page-item.disabled .page-link,
 .form-control {
     color: rgba(222, 226, 230, 0.75) !important;
@@ -276,7 +384,7 @@ div[role="main"]>h2,
     }
 
     50% {
-        background-color: #1F1F1F;
+        background-color: #141414;
     }
 
     100% {
@@ -308,7 +416,7 @@ div[role="main"]>h2,
 .pp_errors_warning {
     background-color: #2c0b0e !important;
     border-color: #842029 !important;
-    color: #ea868f !important;
+    color: white !important;
 }
 
 .gradingform_rubric .criterion .level.checked,
@@ -331,7 +439,7 @@ div[role="main"]>h2,
 .alert-info {
     background: #032830 !important;
     border-color: #087990 !important;
-    color: #6edff6 !important;
+    color: white !important;
 }
 
 .path-mod-assign td.latesubmission,
@@ -360,4 +468,19 @@ table.quizreviewsummary td.cell,
 .visual-scroll-x::-webkit-scrollbar-track,
 .visual-scroll-x::-webkit-scrollbar-thumb {
     border-right: none !important;
+}
+
+.text-primary {
+    color: #fff !important;
+}
+
+#page-header,
+.secondary-navigation .navigation,
+.moremenu .nav-tabs {
+    background: none !important;
+}
+
+.page-context-header .page-header-image h1,
+.page-context-header .page-header-headings h1 {
+    color: white !important;
 }
