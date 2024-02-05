@@ -484,3 +484,15 @@ table.quizreviewsummary td.cell,
 .page-context-header .page-header-headings h1 {
     color: white !important;
 }
+
+#nav-drawer ::-webkit-scrollbar-track {
+    background: #141414 !important;
+}
+
+#nav-drawer ::-webkit-scrollbar-thumb {
+    background: #858585 !important;
+}
+
+#nav-drawer ::-webkit-scrollbar {
+    width: 5px !important;
+}
