@@ -138,8 +138,7 @@ body {
 .userprofile .page-context-header .btn:hover,
 .simplesearchform .btn-submit,
 .btn-secondary:hover,
-.btn-primary:hover,
-.course-content .section .activity-item {
+.btn-primary:hover {
     background-color: #141414 !important;
     border-color: #3D3D3D !important;
 }
@@ -169,8 +168,7 @@ h6>span,
 .moodle-dialogue-base .moodle-dialogue-wrap,
 .que .formulation,
 .que .info,
-.draghome,
-.path-mod .activity-header:not(:empty) {
+.draghome {
     background-color: #141414 !important;
     border: 1px solid #3D3D3D !important;
 }
@@ -189,8 +187,9 @@ span.unread {
 #region-main a:not(.dropdown-item, .page-link, .btn, .fp-path-folder-name),
 .card-body a:not(.dropdown-item, .page-link, .btn),
 .table thead th,
-.btn-link {
-    color: #6ea8fe !important;
+.btn-link,
+#page-heading span.nav-subtitle {
+    color: #479ef5 !important;
     border-bottom: none !important;
 }
 
@@ -267,7 +266,14 @@ span.unread {
 .border-bottom,
 .secondary-navigation .navigation,
 #page-header,
-.nav.nav-tabs .nav-link.active {
+.nav.nav-tabs .nav-link.active,
+.course-content .section .activity-item,
+.path-mod .activity-information .completion-info,
+.border,
+.modchoosercontainer .optionscontainer .option .optioninfo,
+.modchoosercontainer .searchresultitemscontainer .option .optioninfo,
+.card-header,
+.border-right {
     border-color: #3D3D3D !important;
 }
 
@@ -276,7 +282,9 @@ span.unread {
 .fp-iconview .fp-filename-field .fp-filename,
 #quiz-timer-wrapper #quiz-timer,
 .no-overflow span[style*="background-color: rgb(255, 255, 255)"],
-.overlay-icon-container {
+.overlay-icon-container,
+.message-app .message.send,
+.message-app .message.received {
     background-color: #292929 !important;
 }
 
@@ -289,7 +297,8 @@ span.unread {
 #region-main .course-content .section-navigation.navigationtitle,
 h2.card-title,
 h4.card-title,
-div[role="main"]>h2 {
+div[role="main"]>h2,
+.format-flexsections .course-section-header {
     border-color: #141414 !important;
 }
 
@@ -451,7 +460,10 @@ div[role="main"]>h2,
 
 table.quizreviewsummary th.cell,
 table.quizreviewsummary td.cell,
-.que.multichoice .answer .specificfeedback {
+.que.multichoice .answer .specificfeedback,
+.description .course-description-item,
+.path-mod .activity-header:not(:empty),
+.message-app .view-overview-body .section {
     background: none !important;
 }
 
@@ -470,19 +482,19 @@ table.quizreviewsummary td.cell,
     border-right: none !important;
 }
 
-.text-primary {
-    color: #fff !important;
+.text-primary,
+.message-app .day,
+.page-context-header .page-header-image h1,
+.page-context-header .page-header-headings h1,
+.message-app .message.send .time,
+.message-app .message.received {
+    color: white !important;
 }
 
 #page-header,
 .secondary-navigation .navigation,
 .moremenu .nav-tabs {
     background: none !important;
-}
-
-.page-context-header .page-header-image h1,
-.page-context-header .page-header-headings h1 {
-    color: white !important;
 }
 
 #nav-drawer ::-webkit-scrollbar-track {
@@ -495,4 +507,17 @@ table.quizreviewsummary td.cell,
 
 #nav-drawer ::-webkit-scrollbar {
     width: 5px !important;
+}
+
+#drawer-toggle button {
+    color: #ADADAD !important;
+}
+
+.unisalogo>img {
+    content: url("chrome-extension://__MSG_@@extension_id__/img/logo_learnonline.svg") !important;
+}
+
+.message-app .message.send .tail,
+.message-app .message.received .tail {
+    border-bottom-color: #292929 !important;
 }
