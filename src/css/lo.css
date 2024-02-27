@@ -18,8 +18,7 @@ body {
 .page-link,
 .nav-tabs .nav-link.active,
 .userprofile .page-context-header .btn,
-.btn-secondary,
-.btn-primary,
+.btn-outline-secondary,
 .form-control,
 .moodle-dialogue-base .nav-pills .nav-link.active:not(:disabled):not(.disabled).active,
 .notification-area,
@@ -164,7 +163,8 @@ h6>span,
     border: 1px solid;
 }
 
-.btn-outline-secondary,
+.btn-secondary,
+.btn-primary,
 .moodle-dialogue-base .moodle-dialogue-wrap,
 .que .formulation,
 .que .info,
@@ -367,7 +367,10 @@ div[role="main"]>h2,
 .fp-path-folder-name,
 .notification a,
 .content-item-container:hover,
-.comment-area textarea {
+.comment-area textarea,
+.btn-secondary:hover,
+.btn-primary:hover,
+.btn-outline-secondary:hover {
     color: #ffffff !important;
 }
 
