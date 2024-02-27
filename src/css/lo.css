@@ -23,7 +23,8 @@ body {
 .moodle-dialogue-base .nav-pills .nav-link.active:not(:disabled):not(.disabled).active,
 .notification-area,
 .content-item-container,
-.comment-area textarea {
+.comment-area textarea,
+.custom-select {
     background-color: #292929 !important;
     border-color: #3D3D3D !important;
 }
@@ -63,7 +64,8 @@ body {
 .side-navigation .nav-item .nav-link[aria-expanded="true"],
 .side-navigation .nav-item .nav-link.hover,
 #nav-drawer .nav-item .nav-link.hover,
-#nav-drawer .nav-link.active:not(:disabled):not(.disabled).active:hover {
+#nav-drawer .nav-link.active:not(:disabled):not(.disabled).active:hover,
+.side-navigation .nav-item .nav-link[aria-expanded="true"]:not(.active) {
     background-color: #1A1A1A !important;
 }
 
@@ -81,11 +83,6 @@ body {
 
 .drawer-region .list-group-item .list-group-item-inner-container:hover {
     background-color: #333333 !important;
-}
-
-#nav-drawer .list-group-item.active,
-#nav-drawer .list-group-item.activechild {
-    background: none !important;
 }
 
 .side-navigation .list-group-item .list-group-item-inner-container.active .locator,
@@ -119,10 +116,6 @@ body {
 .usermenu.list-item-nav>.list-group-item>.list-group-item-action:focus>span>span.usertext,
 .usermenu.list-item-nav>.list-group-item>.list-group-item-action:active>span>span.usertext {
     border: none !important;
-}
-
-#nav-drawer .list-group-item.activechild .list-group-item-inner-container {
-    background: none !important;
 }
 
 .form-control {
@@ -203,24 +196,19 @@ span.unread {
     border-top: none !important;
 }
 
-#region-main p a {
-    background: none !important;
-}
-
 .side-navigation,
 .side-navigation .nav-item,
 .side-navigation .nav-link,
 .navbar .top-nav-container,
 .usermenu.list-item-nav>.list-group-item>.list-group-item-action,
 #nav-drawer-menu-list>.overflow-auto.h-100 {
-    background-color: #0A0A0A !important;
+    background-color: #0a0a0a !important;
 }
 
 .drawer-region,
 .nav-drawer,
 .popover-region-header-container,
 .popover-region-content-container,
-.generaltable tbody tr:nth-of-type(odd),
 .card .dashboard-card,
 .gradingform_rubric .criterion.odd,
 .no-overflow table[style*="border-radius:6px"],
@@ -273,7 +261,8 @@ span.unread {
 .modchoosercontainer .optionscontainer .option .optioninfo,
 .modchoosercontainer .searchresultitemscontainer .option .optioninfo,
 .card-header,
-.border-right {
+.border-right,
+.drawer-region {
     border-color: #3D3D3D !important;
 }
 
@@ -370,7 +359,15 @@ div[role="main"]>h2,
 .comment-area textarea,
 .btn-secondary:hover,
 .btn-primary:hover,
-.btn-outline-secondary:hover {
+.btn-outline-secondary:hover,
+.custom-select,
+.btn,
+#page-header h1,
+#page-header h2,
+#page-header h3,
+#page-header h4,
+#page-header h5,
+#page-header h6 {
     color: #ffffff !important;
 }
 
@@ -454,6 +451,18 @@ div[role="main"]>h2,
     color: white !important;
 }
 
+.alert-primary {
+    background: #031633 !important;
+    border-color: #084298 !important;
+    color: white !important;
+}
+
+.alert-secondary {
+    background: #161719 !important;
+    border-color: #41464b !important;
+    color: white !important;
+}
+
 .path-mod-assign td.latesubmission,
 .path-mod-assign a:link.latesubmission,
 .path-mod-assign div.latesubmission {
@@ -466,7 +475,26 @@ table.quizreviewsummary td.cell,
 .que.multichoice .answer .specificfeedback,
 .description .course-description-item,
 .path-mod .activity-header:not(:empty),
-.message-app .view-overview-body .section {
+.message-app .view-overview-body .section,
+#page-header,
+.secondary-navigation .navigation,
+.moremenu .nav-tabs,
+#nav-drawer .list-group-item.active,
+#nav-drawer .list-group-item.activechild,
+#nav-drawer .list-group-item.activechild .list-group-item-inner-container,
+#region-main p a,
+.path-grade-report-user .user-report-container,
+.grade-report-user .user-report-container,
+.path-grade-report-user .user-grade thead th,
+.path-grade-report-user .user-grade tbody tr,
+.path-grade-report-user .user-grade th.category,
+.grade-report-user .user-grade th.category,
+.path-grade-report-user .user-grade td.item,
+.grade-report-user .user-grade td.item,
+.path-grade-report-user .user-grade td,
+.grade-report-user .user-grade td,
+.path-grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb),
+.grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb) {
     background: none !important;
 }
 
@@ -494,12 +522,6 @@ table.quizreviewsummary td.cell,
     color: white !important;
 }
 
-#page-header,
-.secondary-navigation .navigation,
-.moremenu .nav-tabs {
-    background: none !important;
-}
-
 #nav-drawer ::-webkit-scrollbar-track {
     background: #141414 !important;
 }
@@ -523,4 +545,8 @@ table.quizreviewsummary td.cell,
 .message-app .message.send .tail,
 .message-app .message.received .tail {
     border-bottom-color: #292929 !important;
+}
+
+.tertiary-navigation .navitem-divider {
+    background-color: #3D3D3D !important;
 }
