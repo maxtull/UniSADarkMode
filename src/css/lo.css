@@ -24,7 +24,9 @@ body {
 .notification-area,
 .content-item-container,
 .comment-area textarea,
-.custom-select {
+.custom-select,
+.que .formulation,
+.que .info {
     background-color: #292929 !important;
     border-color: #3D3D3D !important;
 }
@@ -156,11 +158,8 @@ h6>span,
     border: 1px solid;
 }
 
-.btn-secondary,
 .btn-primary,
 .moodle-dialogue-base .moodle-dialogue-wrap,
-.que .formulation,
-.que .info,
 .draghome {
     background-color: #141414 !important;
     border: 1px solid #3D3D3D !important;
@@ -262,7 +261,9 @@ span.unread {
 .modchoosercontainer .searchresultitemscontainer .option .optioninfo,
 .card-header,
 .border-right,
-.drawer-region {
+.drawer-region,
+.modal-header,
+.modal-footer {
     border-color: #3D3D3D !important;
 }
 
@@ -273,7 +274,8 @@ span.unread {
 .no-overflow span[style*="background-color: rgb(255, 255, 255)"],
 .overlay-icon-container,
 .message-app .message.send,
-.message-app .message.received {
+.message-app .message.received,
+.modal-content {
     background-color: #292929 !important;
 }
 
@@ -494,7 +496,8 @@ table.quizreviewsummary td.cell,
 .path-grade-report-user .user-grade td,
 .grade-report-user .user-grade td,
 .path-grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb),
-.grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb) {
+.grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb),
+.btn-secondary {
     background: none !important;
 }
 
