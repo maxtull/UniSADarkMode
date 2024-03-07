@@ -263,7 +263,9 @@ span.unread {
 .border-right,
 .drawer-region,
 .modal-header,
-.modal-footer {
+.modal-footer,
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,
+.mform fieldset {
     border-color: #3D3D3D !important;
 }
 
@@ -369,7 +371,13 @@ div[role="main"]>h2,
 #page-header h3,
 #page-header h4,
 #page-header h5,
-#page-header h6 {
+#page-header h6,
+.mform .ftoggler h1,
+.mform .ftoggler h2,
+.mform .ftoggler h3,
+.mform .ftoggler h4,
+.mform .ftoggler h5,
+.mform .ftoggler h6 {
     color: #ffffff !important;
 }
 
@@ -419,7 +427,7 @@ div[role="main"]>h2,
 .alert-warning {
     background-color: #332701 !important;
     border-color: #997404 !important;
-    color: #ffda6a !important;
+    color: #ffffff !important;
 }
 
 .alert-danger,
@@ -430,6 +438,30 @@ div[role="main"]>h2,
     color: white !important;
 }
 
+.badge-pill .alert-info {
+    background-color: #087990 !important;
+}
+
+.badge-pill .alert-success {
+    background-color: #0f5132 !important;
+}
+
+.badge-pill .alert-primary {
+    background-color: #084298 !important;
+}
+
+.badge-pill .alert-secondary {
+    background-color: #41464b !important;
+}
+
+.badge-pill .alert-danger {
+    background-color: #842029 !important;
+}
+
+.badge-pill .alert-warning {
+    background-color: #997404 !important;
+}
+
 .gradingform_rubric .criterion .level.checked,
 .gradingform_rubric .criterion .levels .level.checked .level-wrapper,
 .path-mod-assign td.submissionstatussubmitted,
@@ -438,7 +470,7 @@ div[role="main"]>h2,
 .path-mod-assign td.submissionlocked,
 .path-mod-assign td.earlysubmission,
 .path-mod-assign div.earlysubmission,
-.alert-success {
+.alert-success:not(.badge-pill) {
     background-color: #051b11 !important;
     border-color: #0f5132 !important;
     color: #ffffff !important;
@@ -552,4 +584,8 @@ table.quizreviewsummary td.cell,
 
 .tertiary-navigation .navitem-divider {
     background-color: #3D3D3D !important;
+}
+
+.path-mod .automatic-completion-conditions .badge {
+    mix-blend-mode: normal !important;
 }
