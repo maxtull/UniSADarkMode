@@ -221,7 +221,8 @@ span.unread {
 .message-app,
 .message-app div[class*="bg-white"],
 .forumpost .header,
-.badge-secondary {
+.badge-secondary,
+.path-mod .automatic-completion-conditions .badge.badge-light {
     background-color: #141414 !important;
 }
 
@@ -442,7 +443,9 @@ div[role="main"]>h2,
     background-color: #087990 !important;
 }
 
-.badge-pill .alert-success {
+.badge-pill .alert-success,
+.alert-success,
+.environmenttable .ok {
     background-color: #0f5132 !important;
 }
 
