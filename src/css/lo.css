@@ -200,7 +200,8 @@ span.unread {
 .side-navigation .nav-link,
 .navbar .top-nav-container,
 .usermenu.list-item-nav>.list-group-item>.list-group-item-action,
-#nav-drawer-menu-list>.overflow-auto.h-100 {
+#nav-drawer-menu-list>.overflow-auto.h-100,
+.course-nav-container {
     background-color: #0a0a0a !important;
 }
 
@@ -633,4 +634,8 @@ a:not([class]):focus,
 
 .text-info {
     color: #0dcaf0 !important;
+}
+
+.menu-opened-overlay {
+    background: rgb(0 0 0 / 70%) !important;
 }
