@@ -209,7 +209,6 @@ span.unread {
 .popover-region-header-container,
 .popover-region-content-container,
 .card .dashboard-card,
-.gradingform_rubric .criterion.odd,
 .no-overflow table[style*="border-radius:6px"],
 .no-overflow div[style*="background: white"],
 .no-overflow div[style*="background-color: #fff"],
@@ -266,7 +265,9 @@ span.unread {
 .modal-header,
 .modal-footer,
 .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,
-.mform fieldset {
+.mform fieldset,
+.gradingform_rubric .criterion .levels .level,
+.gradingform_rubric .criterion .levels .level.last {
     border-color: #3D3D3D !important;
 }
 
@@ -278,7 +279,8 @@ span.unread {
 .overlay-icon-container,
 .message-app .message.send,
 .message-app .message.received,
-.modal-content {
+.modal-content,
+.gradingform_rubric .criterion.odd {
     background-color: #292929 !important;
 }
 
@@ -532,8 +534,14 @@ table.quizreviewsummary td.cell,
 .grade-report-user .user-grade td,
 .path-grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb),
 .grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb),
-.btn-secondary {
+.btn-secondary,
+.gradingform_rubric .criterion.even,
+.gradingform_rubric .criterion.even td {
     background: none !important;
+}
+
+.gradingform_rubric .criterion.odd td {
+    background: rgba(0, 0, 0, .05) !important;
 }
 
 .btn-primary,
@@ -591,4 +599,38 @@ table.quizreviewsummary td.cell,
 
 .path-mod .automatic-completion-conditions .badge {
     mix-blend-mode: normal !important;
+}
+
+.aalink.focus,
+a.focus.autolink,
+.aalink:focus,
+a.autolink:focus,
+#page-footer a:not([class]).focus,
+#page-footer a:not([class]):focus,
+.arrow_link.focus,
+.arrow_link:focus,
+a:not([class]).focus,
+a:not([class]):focus,
+.activityinstance>a.focus,
+.activityinstance>a:focus {
+    outline: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: #6ea8fe !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.text-success {
+    color: #198754 !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-info {
+    color: #0dcaf0 !important;
 }
