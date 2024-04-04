@@ -281,7 +281,8 @@ span.unread {
 .message-app .message.send,
 .message-app .message.received,
 .modal-content,
-.gradingform_rubric .criterion.odd {
+.gradingform_rubric .criterion.odd,
+.notification-area .control-area .content .content-item-container {
     background-color: #292929 !important;
 }
 
@@ -381,7 +382,8 @@ div[role="main"]>h2,
 .mform .ftoggler h3,
 .mform .ftoggler h4,
 .mform .ftoggler h5,
-.mform .ftoggler h6 {
+.mform .ftoggler h6,
+.content-item-container:hover .content-item-footer .timestamp {
     color: #ffffff !important;
 }
 
