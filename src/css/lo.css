@@ -132,7 +132,8 @@ body {
 .userprofile .page-context-header .btn:hover,
 .simplesearchform .btn-submit,
 .btn-secondary:hover,
-.btn-primary:hover {
+.btn-primary:hover,
+.badge-light {
     background-color: #141414 !important;
     border-color: #3D3D3D !important;
 }
