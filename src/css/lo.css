@@ -145,7 +145,8 @@ h3>span,
 h4>span,
 h5>span,
 h6>span,
-.popover-region-header-text {
+.popover-region-header-text,
+.text-body {
     color: #dee2e6 !important;
 }
 
@@ -269,7 +270,8 @@ span.unread {
 .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,
 .mform fieldset,
 .gradingform_rubric .criterion .levels .level,
-.gradingform_rubric .criterion .levels .level.last {
+.gradingform_rubric .criterion .levels .level.last,
+#local_extensions-requests .border-bottom-0 {
     border-color: #3D3D3D !important;
 }
 
@@ -283,7 +285,8 @@ span.unread {
 .message-app .message.received,
 .modal-content,
 .gradingform_rubric .criterion.odd,
-.notification-area .control-area .content .content-item-container {
+.notification-area .control-area .content .content-item-container,
+.bg-secondary {
     background-color: #292929 !important;
 }
 
@@ -434,7 +437,7 @@ div[role="main"]>h2,
 .alert-warning {
     background-color: #332701 !important;
     border-color: #997404 !important;
-    color: #ffffff !important;
+    color: #ffda6a !important;
 }
 
 .alert-danger,
@@ -442,7 +445,7 @@ div[role="main"]>h2,
 .pp_errors_warning {
     background-color: #2c0b0e !important;
     border-color: #842029 !important;
-    color: white !important;
+    color: #ea868f !important;
 }
 
 .badge-pill .alert-info {
@@ -482,7 +485,7 @@ div[role="main"]>h2,
 .alert-success:not(.badge-pill) {
     background-color: #051b11 !important;
     border-color: #0f5132 !important;
-    color: #ffffff !important;
+    color: #75b798 !important;
 }
 
 .tii_checkagainstnote,
@@ -491,19 +494,19 @@ div[role="main"]>h2,
 .alert-info {
     background: #032830 !important;
     border-color: #087990 !important;
-    color: white !important;
+    color: #6edff6 !important;
 }
 
 .alert-primary {
     background: #031633 !important;
     border-color: #084298 !important;
-    color: white !important;
+    color: #6ea8fe !important;
 }
 
 .alert-secondary {
     background: #161719 !important;
     border-color: #41464b !important;
-    color: white !important;
+    color: #a7acb1 !important;
 }
 
 .path-mod-assign td.latesubmission,
