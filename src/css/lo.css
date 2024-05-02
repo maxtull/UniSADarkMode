@@ -27,7 +27,9 @@ body {
 .que .formulation,
 .que .info,
 .moodle-dialogue-base .moodle-dialogue-wrap,
-.draghome {
+.draghome,
+.popover,
+.popover-header {
     background-color: #292929 !important;
     border-color: #3D3D3D !important;
 }
@@ -51,7 +53,7 @@ body {
 #nav-drawer .nav-link.active:not(:disabled):not(.disabled).active {
     border: none !important;
     background-color: transparent !important;
-    color: #479EF5 !important;
+    color: #6ea8fe !important;
 }
 
 #nav-drawer li.nav-item {
@@ -173,7 +175,7 @@ span.unread {
 .table thead th,
 .btn-link,
 #page-heading span.nav-subtitle {
-    color: #479ef5 !important;
+    color: #6ea8fe !important;
     border-bottom: none !important;
 }
 
@@ -193,7 +195,8 @@ span.unread {
 .navbar .top-nav-container,
 .usermenu.list-item-nav>.list-group-item>.list-group-item-action,
 #nav-drawer-menu-list>.overflow-auto.h-100,
-.course-nav-container {
+.course-nav-container,
+.scroll-top-wrapper {
     background-color: #0a0a0a !important;
 }
 
@@ -268,7 +271,8 @@ div[role="main"]>h2,
 .border-bottom,
 .forumpost .header,
 .nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus {
+.nav-tabs .nav-link:focus,
+.tertiary-navigation.full-width-bottom-border {
     border-color: #3D3D3D !important;
 }
 
@@ -380,7 +384,10 @@ div[role="main"]>h2,
 .mform .ftoggler h4,
 .mform .ftoggler h5,
 .mform .ftoggler h6,
-.content-item-container:hover .content-item-footer .timestamp {
+.content-item-container:hover .content-item-footer .timestamp,
+.popover,
+.popover-body,
+.popover-header {
     color: #ffffff !important;
 }
 
@@ -810,4 +817,8 @@ a:not([class]):focus,
 .nav-link.active:not(:disabled):not(.disabled).active {
     border-top-left-radius: 0.375rem !important;
     border-top-right-radius: 0.375rem !important;
+}
+
+code {
+    color: #e685b5 !important;
 }
