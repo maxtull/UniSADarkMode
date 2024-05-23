@@ -819,6 +819,7 @@ a:not([class]):focus,
     border-top-right-radius: 0.375rem !important;
 }
 
-code {
+code,
+pre {
     color: #e685b5 !important;
 }
