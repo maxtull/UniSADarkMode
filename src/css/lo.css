@@ -204,7 +204,6 @@ span.unread {
 .nav-drawer,
 .popover-region-header-container,
 .popover-region-content-container,
-.card .dashboard-card,
 .path-mod-quiz #mod_quiz_navblock .qnbutton,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.notyetanswered .trafficlight,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight,
@@ -822,4 +821,8 @@ a:not([class]):focus,
 code,
 pre {
     color: #e685b5 !important;
+}
+
+.block-myoverview .dashboard-card-deck .dashboard-card {
+    box-shadow: none !important;
 }
