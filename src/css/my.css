@@ -84,6 +84,7 @@ a:hover {
 }
 
 .secondary:hover,
+.secondary:focus,
 .static-menu li a:hover {
     background-color: #6c757d !important;
     color: #fff !important;
