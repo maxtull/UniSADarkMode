@@ -1,0 +1,137 @@
+html,
+body {
+    background-color: #141414 !important;
+    color: #dee2e6 !important;
+}
+
+#ctl00_ctl00_pnlUniSALogo>a>img,
+#ctl00_ctl00_pnlFooterUniSALogo>a>img {
+    content: url("chrome-extension://__MSG_@@extension_id__/img/logo_learnonline.svg") !important;
+}
+
+#header,
+.navbar,
+.footer-bottom,
+.top-footer-full,
+#container>div.gradient-blue-dropdown {
+    background: #0a0a0a !important;
+    background-color: #0a0a0a !important;
+}
+
+#theTime {
+    background-color: transparent !important;
+}
+
+.navbar-bottom {
+    border-bottom: 1px solid !important;
+}
+
+.WebPart,
+.side-links,
+.static-menu,
+.navbar-bottom {
+    border-color: #3D3D3D !important;
+}
+
+.navbar-bottom,
+table.WebPartTitleBar,
+.main-content #div-wpzLeft .PagePartsH1 table.WebPartTitleBar,
+.WebPart,
+.side-links,
+.static-menu,
+div.side-links h2 {
+    background-color: #292929 !important;
+}
+
+table.WebPartTitleBar h1,
+table.WebPartTitleBar h2,
+table td.WebPartBody h3,
+div.side-links h2,
+.navbar li.nav-item a.nav-link,
+.service-status-container a,
+#user-logon a.logout,
+ul.footer-list a,
+ul.connect-nav-bar a,
+table.tablesaw th,
+table.tablesaw b.tablesaw-cell-label,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li input,
+#slideshow-nav a,
+.WebPart .personaldetails-table label {
+    color: #fff !important;
+}
+
+.navbar li.nav-item a.nav-link:not(.selected) {
+    border-color: transparent !important;
+}
+
+.navbar li.nav-item a.nav-link:not(.selected):hover {
+    border-color: rgba(222, 226, 230, 0.75) !important;
+}
+
+a,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li {
+    color: #6ea8fe !important;
+}
+
+a:hover {
+    color: #8bb9fe !important;
+}
+
+.secondary,
+.static-menu li a {
+    border-color: #6c757d !important;
+    color: #fff !important;
+}
+
+.secondary:hover,
+.static-menu li a:hover {
+    background-color: #6c757d !important;
+    color: #fff !important;
+}
+
+.static-menu.UniSA-menu li a i {
+    color: inherit !important;
+}
+
+.tablesaw td[colspan]:hover {
+    background: none !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current a,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current a:visited {
+    background-color: #6c757d !important;
+}
+
+.resources-tabs {
+    background-color: #4f555a !important;
+}
+
+table.tablesaw tr:hover td,
+table.tablesaw tr:focus td {
+    background-color: transparent !important;
+}
+
+div#student-awareness a#pausePlay,
+#slideshow-nav a {
+    background-color: #6C757D !important;
+    border-radius: 50% !important;
+    margin-top: 5px !important;
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 2px !important;
+    font-size: 0 !important;
+}
+
+.WebPartBody {
+    padding: 15px 15px 5px 15px !important;
+}
+
+#student-awareness.slideshow-v2 {
+    margin: 0 !important;
+}
+
+.WebPartVerbs,
+.moodleicon {
+    filter: brightness(0) invert(1) !important;
+}
