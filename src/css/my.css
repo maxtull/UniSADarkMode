@@ -69,7 +69,8 @@ div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tab
 }
 
 a,
-div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li {
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li,
+#ClassesToday li span:first-child {
     color: #6ea8fe !important;
 }
 
