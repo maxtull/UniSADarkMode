@@ -387,7 +387,9 @@ div[role="main"]>h2,
 .content-item-container:hover .content-item-footer .timestamp,
 .popover,
 .popover-body,
-.popover-header {
+.popover-header,
+.course-content li.section ul,
+.formattedusercontent ul li {
     color: #ffffff !important;
 }
 
