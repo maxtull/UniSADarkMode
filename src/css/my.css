@@ -137,3 +137,15 @@ div#student-awareness a#pausePlay,
 .moodleicon {
     filter: brightness(0) invert(1) !important;
 }
+
+.service-status-container span.fal.fa-check-circle {
+    color: #198754 !important;
+}
+
+.service-status-container span.fal.fa-exclamation-circle {
+    color: #ffc107 !important;
+}
+
+.service-status-container span.fal.fa-times-circle {
+    color: #dc3545 !important;
+}

@@ -271,7 +271,8 @@ div[role="main"]>h2,
 .forumpost .header,
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus,
-.tertiary-navigation.full-width-bottom-border {
+.tertiary-navigation.full-width-bottom-border,
+.gradingform_guide .criterion {
     border-color: #3D3D3D !important;
 }
 
@@ -545,7 +546,8 @@ table.quizreviewsummary td.cell,
 .grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb),
 .gradingform_rubric .criterion.even,
 .gradingform_rubric .criterion.even td,
-.nav.nav-tabs .nav-link {
+.nav.nav-tabs .nav-link,
+.gradingform_guide .criterion.even {
     background: none !important;
 }
 
