@@ -272,7 +272,8 @@ div[role="main"]>h2,
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus,
 .tertiary-navigation.full-width-bottom-border,
-.gradingform_guide .criterion {
+.gradingform_guide .criterion,
+.formattedusercontent hr {
     border-color: #3D3D3D !important;
 }
 
@@ -400,10 +401,6 @@ div[role="main"]>h2,
 .page-item.disabled .page-link,
 .form-control {
     color: rgba(222, 226, 230, 0.75) !important;
-}
-
-.formattedusercontent hr {
-    border-color: rgba(222, 226, 230, 0.75) !important;
 }
 
 .bg-pulse-grey {
