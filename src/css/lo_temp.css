@@ -1,0 +1,555 @@
+body {
+    background-color: var(--colors-background-default) !important;
+    color: var(--colors-text-primary) !important;
+    font-family: var(--density-typography-text-md-font-family) !important;
+    font-size: var(--density-typography-text-md-font-size) !important;
+    letter-spacing: var(--density-typography-text-md-letter-spacing) !important;
+    line-height: var(--density-typography-text-md-line-height) !important;
+}
+
+#page-footer .footer-links,
+#page-footer .footer-info {
+    background: var(--colors-background-elevated-low-default) !important;
+    box-shadow: 0 200vh 0 200vh var(--colors-background-elevated-low-default) !important;
+}
+
+.navbar .top-nav-container,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action {
+    background: var(--colors-background-elevated-low-default) !important;
+}
+
+#page-footer .copyright-disclaimer,
+#page-footer .footer-links a,
+#page-footer .footer-info .connect-with-unisa a,
+.usermenu span.usertext,
+#page-heading span.nav-subtitle,
+#drawer-toggle button,
+.course-content .section .activity-item,
+.text-muted,
+.nav-drawer .list-group-item .toggle,
+.generaltable,
+.resourcelinkdetails {
+    color: var(--colors-text-secondary) !important;
+    transition: color var(--common-duration-fast) ease !important;
+}
+
+.page-context-header .page-header-image h1,
+.page-context-header .page-header-headings h1,
+#page-footer .footer-info a,
+.section-navigation h2.sectionname,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.block .block-cards span.categoryname,
+.block .block-cards .btn-link,
+.btn-clear {
+    color: var(--colors-text-primary) !important;
+}
+
+#page-footer .footer-info .connect-with-unisa a:hover,
+#page-footer .footer-links ul.navlinks li>a:hover,
+#page-footer .footer-info a:hover,
+.usermenu span.usertext:hover,
+#drawer-toggle button:hover,
+.btn-link:hover,
+.btn-clear:hover,
+.nav-drawer .list-group-item .toggle:hover,
+.generaltable tbody tr:hover {
+    color: var(--colors-text-primary) !important;
+    text-decoration: none !important;
+}
+
+#region-main,
+.card {
+    background-color: var(--colors-background-elevated-high-default) !important;
+}
+
+.pagelayout-mydashboard #region-main,
+#nav-drawer-menu-list>.overflow-auto.h-100,
+.side-navigation,
+.nav-drawer {
+    background: transparent !important;
+}
+
+#page-header,
+.path-mod .activity-header:not(:empty),
+.description .course-description-item,
+.side-navigation .nav-item {
+    background-color: transparent !important;
+}
+
+h1,
+h2.card-title,
+h4.card-title,
+.section-navigation h2.sectionname {
+    font-family: var(--density-typography-heading-lg-font-family) !important;
+    font-size: var(--density-typography-heading-lg-font-size) !important;
+    font-weight: var(--density-typography-heading-lg-font-weight) !important;
+    letter-spacing: var(--density-typography-heading-lg-letter-spacing) !important;
+    line-height: var(--density-typography-heading-lg-line-height) !important;
+}
+
+h2 {
+    font-family: var(--density-typography-heading-md-font-family) !important;
+    font-size: var(--density-typography-heading-md-font-size) !important;
+    font-weight: var(--density-typography-heading-md-font-weight) !important;
+    letter-spacing: var(--density-typography-heading-md-letter-spacing) !important;
+    line-height: var(--density-typography-heading-md-line-height) !important;
+}
+
+h3,
+#page-footer .cricos,
+.dropdown-header {
+    font-family: var(--density-typography-heading-sm-font-family) !important;
+    font-size: var(--density-typography-heading-sm-font-size) !important;
+    font-weight: var(--density-typography-heading-sm-font-weight) !important;
+    letter-spacing: var(--density-typography-heading-sm-letter-spacing) !important;
+    line-height: var(--density-typography-heading-sm-line-height) !important;
+}
+
+#region-main,
+[data-fieldtype="editor"] .editor_atto_content_wrap .form-control a,
+.formattedusercontent a,
+.btn-success,
+.btn-danger,
+.btn-warning,
+.btn-info,
+.card,
+.btn-secondary,
+.gradingform_guide.editor .addcomment input,
+.gradingform_guide.editor .addcriterion input,
+.gradingform_rubric .criterion .addlevel input,
+.gradingform_rubric.editor .addcriterion input,
+.modchoosercontainer .optionscontainer .option .optioninfo,
+.modchoosercontainer .searchresultitemscontainer .option .optioninfo,
+.side-navigation .list-group-item.activechild .list-group-item-inner-container,
+.drawer-region .list-group-item.activechild .list-group-item-inner-container,
+.drawer-region .list-group-item .list-group-item-inner-container,
+.nav-controlpanel,
+#nav-drawer .side-navigation {
+    border: none !important;
+}
+
+#page-header,
+.format-flexsections .course-section-header,
+h2.card-title,
+h4.card-title,
+.border-bottom,
+.side-navigation .list-group-item .list-group-item-inner-container {
+    border-bottom: 1px solid var(--colors-border-subtle) !important;
+}
+
+.generaltable th,
+.generaltable td {
+    border-top: 1px solid var(--colors-border-subtle) !important;
+}
+
+.btn {
+    align-items: center !important;
+    background: var(--_Button_backgroundColor, var(--colors-fill-primary-default)) !important;
+    border-radius: var(--_Button_borderRadius, var(--density-border-radius-2)) !important;
+    color: var(--_Button_color, var(--colors-text-on-accent)) !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    font-weight: 500 !important;
+    gap: var(--_Button_gap) !important;
+    height: var(--_Button_height, var(--density-spacing-10)) !important;
+    justify-content: center !important;
+    outline-offset: 0 !important;
+    outline-width: 0 !important;
+    overflow: hidden !important;
+    padding: var(--_Button_padding, var(--density-spacing-2) var(--density-spacing-4)) !important;
+    position: relative !important;
+    transition: border-color var(--common-duration-fast) ease, color var(--common-duration-fast) ease, background-color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease, outline-width 0s, outline-color 0s !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    --_Button_borderRadius: var(--density-border-radius-2) !important;
+    --_Button_height: var(--Button--md_height, var(--density-spacing-10)) !important;
+    --_Button_padding: var(--Button--md_padding, var(--density-spacing-2) var(--density-spacing-4)) !important;
+    --_Button_gap: var(--density-spacing-2) !important;
+}
+
+.btn-outline-secondary {
+    --_Button_color: var(--colors-text-primary) !important;
+    --_Button_backgroundColor: var(--colors-fill-tertiary-default) !important;
+    --_Button--hover_backgroundColor: var(--colors-fill-tertiary-default) !important;
+    --_Button--active_backgroundColor: var(--colors-fill-tertiary-press) !important;
+    --_Button--disabled_backgroundColor: var(--colors-fill-disabled-tertiary) !important;
+    border-color: var(--_Button_borderColor, var(--colors-border-default)) !important;
+    border-style: solid !important;
+    border-width: var(--density-border-width-0-25) !important;
+}
+
+.btn-link,
+.btn-clear {
+    --_Button_color: var(--colors-text-primary) !important;
+    --_Button_backgroundColor: var(--colors-fill-tertiary-default) !important;
+    --_Button--hover_backgroundColor: var(--colors-fill-tertiary-hover) !important;
+    --_Button--active_backgroundColor: var(--colors-fill-tertiary-press) !important;
+    --_Button--disabled_backgroundColor: var(--colors-fill-disabled-tertiary) !important;
+    border: none !important;
+}
+
+.btn-outline-secondary:not(:disabled):not([disabled]):not(:active):hover {
+    --_Button_borderColor: var(--colors-border-hover)
+}
+
+.btn-sm {
+    --_Button_borderRadius: var(--density-border-radius-1-5) !important;
+    --_Button_height: var(--Button--sm_height, var(--density-spacing-8)) !important;
+    --_Button_padding: var(--Button--sm_padding, var(--density-spacing-1) var(--density-spacing-3)) !important;
+    --_Button_gap: var(--density-spacing-1-5) !important;
+}
+
+.btn,
+.btn-sm,
+.form-control {
+    font-family: var(--density-typography-text-md-font-family) !important;
+    font-size: var(--density-typography-text-md-font-size) !important;
+    letter-spacing: var(--density-typography-text-md-letter-spacing) !important;
+    line-height: var(--density-typography-text-md-line-height) !important;
+    box-shadow: none !important;
+}
+
+.btn-lg {
+    --_Button_borderRadius: var(--density-border-radius-2-5) !important;
+    --_Button_height: var(--Button--lg_height, var(--density-spacing-12)) !important;
+    --_Button_padding: var(--Button--lg_padding, var(--density-spacing-3) var(--density-spacing-5)) !important;
+    --_Button_gap: var(--density-spacing-2-5) !important;
+    font-family: var(--density-typography-text-md-font-family) !important;
+    font-size: var(--density-typography-text-md-font-size) !important;
+    letter-spacing: var(--density-typography-text-md-letter-spacing) !important;
+    line-height: var(--density-typography-text-md-line-height) !important;
+}
+
+.btn-primary {
+    --_Button_color: var(--colors-text-on-accent) !important;
+    --_Button_backgroundColor: var(--colors-fill-primary-default) !important;
+    --_Button--hover_backgroundColor: var(--colors-fill-primary-hover) !important;
+    --_Button--active_backgroundColor: var(--colors-fill-primary-press) !important;
+    --_Button--disabled_backgroundColor: var(--colors-fill-disabled-primary) !important;
+    border: none !important;
+}
+
+.btn-secondary {
+    --_Button_color: var(--colors-text-primary) !important;
+    --_Button_backgroundColor: var(--colors-fill-secondary-default) !important;
+    --_Button--hover_backgroundColor: var(--colors-fill-secondary-hover) !important;
+    --_Button--active_backgroundColor: var(--colors-fill-secondary-press) !important;
+    --_Button--disabled_backgroundColor: var(--colors-fill-disabled-primary) !important;
+}
+
+.btn:not(:disabled):not([disabled]):not(:active):hover {
+    background-color: var(--_Button--hover_backgroundColor, var(--colors-fill-primary-hover)) !important;
+}
+
+.activity-item:not(.activityinline) {
+    border: 1px solid var(--colors-border-default) !important;
+    background-color: var(--colors-material-elevated-high-weak) !important;
+}
+
+a {
+    --_Link_color: var(--colors-text-link-primary-default) !important;
+    --_Link--hover_color: var(--colors-text-link-primary-press) !important;
+    --_Link--active_color: var(--colors-text-link-primary-default) !important;
+    border-radius: var(--density-border-radius-0-25) !important;
+    color: var(--_Link_color) !important;
+    outline-offset: 0 !important;
+    outline-width: 0 !important;
+    transition: color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease, outline-width 0s, outline-color 0s !important;
+    font-family: var(--density-typography-text-md-font-family) !important;
+}
+
+.activityname>a,
+ol.breadcrumb li.breadcrumb-item a,
+[data-fieldtype="editor"] .editor_atto_content_wrap .form-control a,
+.formattedusercontent a {
+    text-decoration: underline !important;
+    text-underline-offset: 4px !important;
+    text-decoration-color: inherit !important;
+}
+
+a:not(:active):not(.btn):not(.dropdown-item):not(.toggle):not(.nav-link):hover {
+    color: var(--_Link--hover_color) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 4px !important;
+    text-decoration-color: inherit !important;
+}
+
+#region-main,
+.course-content .section .activity-item,
+.card {
+    border-radius: var(--density-border-radius-4) !important;
+}
+
+.drawer-region,
+#nav-drawer ::-webkit-scrollbar-track {
+    background-color: var(--colors-background-elevated-low-default) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#nav-drawer ::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+ol.breadcrumb li.breadcrumb-item::before {
+    color: var(--colors-icon-secondary) !important;
+}
+
+.nav-controlpanel .clockcontainer .fullclock,
+.form-control {
+    outline-offset: 0 !important;
+    outline-width: 0 !important;
+    align-items: center !important;
+    background-color: var(--_InputContainer_backgroundColor, var(--colors-fill-input-default)) !important;
+    border-color: var(--_InputContainer_borderColor, var(--colors-border-default)) !important;
+    border-radius: var(--_InputContainer_borderRadius, var(--density-border-radius-2)) !important;
+    border-style: solid !important;
+    border-width: var(--_InputContainer_borderWidth, var(--density-border-width-0-25)) !important;
+    color: var(--_InputContainer_color, var(--colors-text-primary)) !important;
+    display: flex !important;
+    gap: var(--_InputContainer_gap, var(--density-spacing-2)) !important;
+    justify-content: center !important;
+    min-height: var(--_InputContainer_height, var(--density-spacing-10)) !important;
+    outline-color: transparent !important;
+    overflow: visible !important;
+    padding: var(--_InputContainer_padding, 0 var(--density-spacing-4)) !important;
+    position: relative !important;
+    transition: color var(--common-duration-fast) ease, background-color var(--common-duration-fast) ease, border-color var(--common-duration-fast) ease, outline-color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease !important;
+    vertical-align: middle !important;
+}
+
+.nav-controlpanel .clockcontainer .fullclock {
+    --_InputContainer_borderColor: var(--colors-border-subdued) !important;
+    border-radius: var(--density-border-radius-round) !important;
+}
+
+.nav-controlpanel {
+    background-color: var(--colors-background-default) !important;
+    box-shadow: none !important;
+}
+
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action:hover>span>span.usertext,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action:focus>span>span.usertext,
+.usermenu.list-item-nav>.list-group-item>.list-group-item-action:active>span>span.usertext {
+    border-bottom: none !important;
+}
+
+#drawer-toggle button {
+    height: 100% !important;
+    background: none !important;
+}
+
+.side-navigation .nav-link {
+    background-color: var(--colors-fill-secondary-default) !important;
+    border-radius: var(--density-border-radius-2) !important;
+    color: var(--colors-text-primary) !important;
+    transition: background-color var(--common-duration-fast) ease !important;
+    padding: var(--density-spacing-2) !important;
+    margin: var(--density-spacing-2) !important;
+}
+
+.drawer-region .list-group-item .list-group-item-inner-container {
+    align-items: center !important;
+    border-radius: var(--density-border-radius-2) !important;
+    margin: var(--density-spacing-2) !important;
+    transition: background-color var(--common-duration-fast) ease !important;
+}
+
+#nav-drawer .list-group-item.active>.list-group-item-inner-container.active,
+#nav-drawer ::-webkit-scrollbar-thumb {
+    background-color: var(--colors-background-elevated-high-default) !important;
+}
+
+.side-navigation .nav-link:hover,
+.side-navigation .nav-item .nav-link.hover.active,
+.side-navigation .nav-item .nav-link:hover,
+.side-navigation .nav-item .nav-link[aria-expanded="true"]:not(.active),
+.side-navigation .nav-item .nav-link.hover,
+.side-navigation .list-group-item .list-group-item-inner-container:hover,
+.side-navigation .list-group-item .list-group-item-inner-container:focus,
+.side-navigation .list-group-item .list-group-item-inner-container:active,
+.drawer-region .list-group-item .list-group-item-inner-container:hover,
+.drawer-region .list-group-item .list-group-item-inner-container:focus,
+.drawer-region .list-group-item .list-group-item-inner-container:active,
+.list-group-item.active .list-group-item-inner-container:hover,
+.list-group-item.activechild .list-group-item-inner-container:hover {
+    background-color: var(--colors-fill-secondary-default) !important;
+    text-decoration: none !important;
+}
+
+.section .activity {
+    padding: var(--density-spacing-3) 0 !important;
+}
+
+.badge {
+    align-items: center !important;
+    background-color: var(--_Badge_backgroundColor, var(--colors-fill-primary-default)) !important;
+    border-radius: 9999px !important;
+    color: var(--_Badge_color, var(--colors-text-on-accent)) !important;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    font-weight: 500 !important;
+    gap: var(--_Badge_gap, var(--density-spacing-1)) !important;
+    justify-content: center !important;
+    min-height: var(--_Badge_height, var(--density-spacing-6)) !important;
+    min-width: var(--_Badge_height, var(--density-spacing-6)) !important;
+    overflow: hidden !important;
+    padding: var(--_Badge_padding, 2px var(--density-spacing-3)) !important;
+    white-space: nowrap !important;
+}
+
+p {
+    font-family: var(--density-typography-text-md-font-family) !important;
+    letter-spacing: var(--density-typography-text-md-letter-spacing) !important;
+    line-height: var(--density-typography-text-md-line-height) !important;
+}
+
+.course-info-container>div>div.w-100.text-truncate>.text-muted {
+    font-family: var(--density-typography-eyebrow-sm-font-family) !important;
+    font-size: var(--density-typography-eyebrow-sm-font-size) !important;
+    letter-spacing: var(--density-typography-eyebrow-sm-letter-spacing) !important;
+    line-height: var(--density-typography-eyebrow-sm-line-height) !important;
+    font-weight: 700 !important;
+}
+
+[data-fieldtype="editor"] .editor_atto_content_wrap .form-control a:hover,
+[data-fieldtype="editor"] .editor_atto_content_wrap .form-control a:focus,
+.formattedusercontent a:hover,
+.formattedusercontent a:focus,
+.list-group-item,
+#nav-drawer .list-group-item.activechild .list-group-item-inner-container,
+.drawer-region,
+body.theme_unisa_dark #nav-drawer {
+    background: none !important;
+}
+
+.block-myoverview .dashboard-card-deck .dashboard-card {
+    overflow: hidden !important;
+    /* background-color: var(--colors-fill-input-default) !important; */
+    /* border: var(--density-border-width-0-25) solid var(--colors-border-default) !important; */
+    box-shadow: none !important;
+    transition: color var(--common-duration-fast) ease, background-color var(--common-duration-fast) ease, border-color var(--common-duration-fast) ease, outline-color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease !important;
+}
+
+.block-myoverview .dashboard-card-deck .dashboard-card:hover {
+    border-color: var(--colors-border-hover) !important;
+}
+
+.dropdown-menu {
+    border: var(--density-border-width-0-25) solid var(--colors-border-subdued) !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    max-height: inherit !important;
+    outline-offset: 0 !important;
+    outline-width: 0 !important;
+    overflow: hidden !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    background-color: var(--colors-background-menu) !important;
+    padding: 4px !important;
+    border-radius: var(--density-border-radius-3) !important;
+    animation: Dropdown-show var(--common-duration-veryfast) ease !important;
+    animation-fill-mode: forwards !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    min-width: 192px !important;
+    min-width: var(--List_width, 192px) !important;
+    box-shadow: var(--common-shadow-bottom-md) !important;
+}
+
+.dropdown-menu .show {
+    animation: Dropdown-hide var(--common-duration-veryfast) ease !important;
+    animation-fill-mode: forwards !important;
+}
+
+.dropdown-item,
+.dropdown-header {
+    align-items: center !important;
+    background-color: transparent !important;
+    background-color: var(--_List-item_backgroundColor, transparent) !important;
+    color: var(--_List-item_color, var(--colors-text-primary)) !important;
+    display: flex !important;
+    font-family: var(--density-typography-text-md-font-family) !important;
+    font-size: var(--density-typography-text-md-font-size) !important;
+    gap: var(--density-spacing-3) !important;
+    letter-spacing: var(--density-typography-text-md-letter-spacing) !important;
+    line-height: var(--density-typography-text-md-line-height) !important;
+    list-style: none !important;
+    min-height: var(--List-item_height, 40px) !important;
+    outline: none !important;
+    padding: 0 var(--density-spacing-3) !important;
+    position: relative !important;
+    transition: background-color var(--common-duration-fast) ease, color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease !important;
+    width: 100% !important;
+    border-radius: var(--_List-item--rounded_borderRadius, var(--density-border-radius-2)) !important;
+}
+
+.dropdown-item:hover {
+    background-color: var(--_List-item--hover_backgroundColor, var(--colors-fill-tertiary-hover)) !important;
+    text-decoration: none !important;
+}
+
+.dropdown-item:active {
+    background-color: var(--_List-item--selected_backgroundColor, var(--colors-fill-secondary-default)) !important;
+}
+
+.dropdown-item[aria-current="true"]:before,
+.dropdown-item[aria-selected="true"]:before {
+    font-size: inherit !important;
+    right: .6rem !important;
+    left: auto !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item a:focus,
+#nav-drawer .list-group-item.activechild>.list-group-item-inner-container,
+.navbar .top-nav-container,
+#nav-drawer {
+    box-shadow: none !important;
+}
+
+@keyframes Dropdown-hide {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes Dropdown-show {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.dropdown-divider {
+    border-top: var(--density-border-width-0-25) solid var(--colors-border-subdued) !important;
+}
+
+.form-control {
+    border-radius: var(--density-border-radius-round) !important;
+    --_InputContainer_borderColor: var(--colors-border-subdued) !important;
+    --_InputContainer--hover_borderColor: var(--colors-border-default) !important;
+    --_InputContainer--focus_borderColor: var(--colors-border-subdued) !important;
+    outline-offset: 0 !important;
+    outline-width: 0 !important;
+}
+
+.form-control {
+    --_InputContainer_height: var(--InputContainer--md_height, var(--density-spacing-10)) !important;
+    --_InputContainer_padding: var(--InputContainer--md_padding, 0 var(--density-spacing-4)) !important;
+    --_InputContainer_gap: var(--density-spacing-2) !important;
+    --_InputContainer_borderRadius: var(--density-border-radius-2) !important;
+}

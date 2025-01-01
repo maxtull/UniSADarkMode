@@ -1,17 +1,37 @@
-let IsInitialized = false;
-document.addEventListener("load", function () {
-    if (IsInitialized) return;
-    IsInitialized = true;
+let isInitialized = false;
 
-    const styles = document.createElement("link");
-    styles.rel = "stylesheet";
-    styles.type = "text/css";
-
-    if (window.location.href.includes("my.unisa.edu.au")) {
-        styles.href = chrome.runtime.getURL("css/my.css");
-    } else {
-        styles.href = chrome.runtime.getURL("css/lo.css");
+const stylesheets = [
+    {
+        host: "lo.unisa.edu.au",
+        stylesheets: ["css/lo.css"]
+    },
+    {
+        host: "uo.unisa.edu.au",
+        stylesheets: ["css/lo.css"]
+    },
+    {
+        host: "my.unisa.edu.au",
+        stylesheets: ["css/my.css"]
     }
+];
 
-    document.head.appendChild(styles);
-}, true);
+const inject = (path) => {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = chrome.runtime.getURL(path);
+    document.head.appendChild(link);
+};
+
+const main = () => {
+    if (isInitialized) return;
+    isInitialized = true;
+
+    const injectableHost = stylesheets.find((h) => h.host === window.location.hostname);
+    if (!injectableHost) return;
+
+    injectableHost.stylesheets.forEach(inject);
+    inject("css/base.css");
+};
+
+document.addEventListener("DOMContentLoaded", main, true);

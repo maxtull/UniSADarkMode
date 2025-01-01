@@ -1,8 +1,3 @@
-body {
-    background-color: #141414 !important;
-    color: white !important;
-}
-
 #region-main,
 .popover-region-container,
 .popover-region-container .list-group-item,
@@ -584,10 +579,6 @@ table.quizreviewsummary td.cell,
 
 #drawer-toggle button {
     color: #ADADAD !important;
-}
-
-.unisalogo>img {
-    content: url("chrome-extension://__MSG_@@extension_id__/img/logo_learnonline.svg") !important;
 }
 
 .message-app .message.send .tail,

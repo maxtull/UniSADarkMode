@@ -1,151 +1,240 @@
-html,
-body {
-    background-color: #141414 !important;
-    color: #dee2e6 !important;
+.navbar li.nav-item a.nav-link,
+table.WebPartTitleBar h1,
+table.WebPartTitleBar h2,
+table td.WebPartBody h3,
+div.side-links h2,
+table.tablesaw th,
+table.tablesaw b.tablesaw-cell-label,
+.WebPart .personaldetails-table label,
+#PopUpPage1 .CourseTitle h1,
+#PopUpPage1 .ProgramTitle h1,
+#PopUpPage1 .PopupTitle h1,
+#PopUpPage1 .PopupTitle h2 {
+    color: var(--color-text-primary) !important;
 }
 
-#ctl00_ctl00_pnlUniSALogo>a>img,
-#ctl00_ctl00_pnlFooterUniSALogo>a>img {
-    content: url("chrome-extension://__MSG_@@extension_id__/img/logo_learnonline.svg") !important;
+.copyright {
+    color: var(--colors-text-secondary) !important;
+}
+
+.navbar li.nav-item a.nav-link:hover {
+    color: var(--color-text-secondary, rgba(255, 255, 255, .65)) !important;
+}
+
+.navbar li.nav-item a.nav-link,
+.navbar li.nav-item a.nav-link:hover,
+.navbar li.nav-item a.nav-link:focus,
+.navbar-bottom {
+    border-bottom: none !important;
 }
 
 #header,
 .navbar,
+.navbar-bottom,
 .footer-bottom,
 .top-footer-full,
 #container>div.gradient-blue-dropdown {
-    background: #0a0a0a !important;
-    background-color: #0a0a0a !important;
+    background: var(--colors-background-elevated-low-default) !important;
 }
 
-#theTime {
-    background-color: transparent !important;
+a,
+div.side-links ul li>a::before,
+.CustomLinks a::before,
+div.ProgramLinkPanel a::before,
+a.customlink::before,
+ul.courselinks li .courselinksWrapAlignment a:before,
+a.link_underlined:before,
+ul.Links li a:before {
+    color: var(--colors-text-link-primary-default) !important;
+    transition: color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease, outline-width 0s, outline-color 0s !important;
 }
 
-.navbar-bottom {
-    border-bottom: 1px solid !important;
+a:hover {
+    color: var(--colors-text-link-primary-press) !important;
 }
 
-.WebPart,
-.side-links,
-.static-menu,
-.navbar-bottom {
-    border-color: #3D3D3D !important;
+a:hover,
+a:focus {
+    text-decoration: underline !important;
 }
 
-.navbar-bottom,
 table.WebPartTitleBar,
 .main-content #div-wpzLeft .PagePartsH1 table.WebPartTitleBar,
 .WebPart,
 .side-links,
 .static-menu,
 div.side-links h2 {
-    background-color: #292929 !important;
+    background-color: var(--colors-background-elevated-high-default) !important;
+    border: none !important;
 }
 
 table.WebPartTitleBar h1,
 table.WebPartTitleBar h2,
 table td.WebPartBody h3,
-div.side-links h2,
-.navbar li.nav-item a.nav-link,
+div.side-links h2 {
+    font-family: var(--density-typography-heading-lg-font-family) !important;
+    font-weight: var(--density-typography-heading-lg-font-weight) !important;
+}
+
+.WebPart,
+.side-links {
+    border-radius: var(--density-border-radius-4) !important;
+}
+
+#theTime,
+#TimeZone,
 .service-status-container a,
 #user-logon a.logout,
 ul.footer-list a,
-ul.connect-nav-bar a,
-table.tablesaw th,
-table.tablesaw b.tablesaw-cell-label,
-div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li input,
-#slideshow-nav a,
-.WebPart .personaldetails-table label {
-    color: #fff !important;
+ul.connect-nav-bar a {
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: var(--colors-text-secondary) !important;
 }
 
-.navbar li.nav-item a.nav-link:not(.selected) {
-    border-color: transparent !important;
+.static-menu li a:hover span,
+.static-menu li a:focus span,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li:hover input,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li:focus input {
+    text-decoration: none !important;
 }
 
-.navbar li.nav-item a.nav-link:not(.selected):hover {
-    border-color: rgba(222, 226, 230, 0.75) !important;
-}
-
-a,
-div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li,
-#ClassesToday li span:first-child {
-    color: #6ea8fe !important;
-}
-
-a:hover {
-    color: #8bb9fe !important;
+.service-status-container a:hover,
+#user-logon a.logout:hover,
+ul.footer-list a:hover,
+ul.connect-nav-bar a:hover {
+    color: var(--colors-icon-primary) !important;
 }
 
 .secondary,
+.btn-secondary,
+.static-menu li a,
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li input {
+    font-family: var(--density-typography-text-md-font-family) !important;
+    font-size: var(--density-typography-text-md-font-size) !important;
+    letter-spacing: var(--density-typography-text-md-letter-spacing) !important;
+    line-height: var(--density-typography-text-md-line-height) !important;
+    font-weight: 500 !important;
+}
+
+.secondary,
+.btn-secondary,
 .static-menu li a {
-    border-color: #6c757d !important;
-    color: #fff !important;
+    gap: var(--density-spacing-1-5) !important;
+    width: 100% !important;
+    align-items: center !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    vertical-align: middle !important;
+    height: var(--Button--md_height, var(--density-spacing-10)) !important;
+    padding: var(--Button--md_padding, var(--density-spacing-2) var(--density-spacing-4)) !important;
+    border: none !important;
+    color: var(--colors-text-primary) !important;
+    background-color: var(--colors-fill-secondary-default) !important;
+    border-radius: var(--density-border-radius-2) !important;
+    transition: border-color var(--common-duration-fast) ease, color var(--common-duration-fast) ease, background-color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease, outline-width 0s, outline-color 0s !important;
+}
+
+.btn-secondary {
+    height: var(--density-spacing-8) !important;
+}
+
+.resources-tabs {
+    background-color: var(--colors-background-elevated-low-transparent) !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li {
+    transition: border-color var(--common-duration-fast) ease, color var(--common-duration-fast) ease, background-color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease, outline-width 0s, outline-color 0s !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li input {
+    color: var(--colors-text-primary) !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current input {
+    color: var(--colors-text-on-accent) !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current {
+    background-color: var(--colors-fill-primary-default) !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current:hover {
+    background-color: var(--colors-fill-primary-hover) !important;
+}
+
+div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li:hover {
+    background-color: var(--colors-fill-secondary-hover) !important;
+}
+
+.search-container .btn-secondary {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
 }
 
 .secondary:hover,
 .secondary:focus,
-.static-menu li a:hover {
-    background-color: #6c757d !important;
-    color: #fff !important;
+.btn-secondary:hover,
+.btn-secondary:focus,
+.static-menu li a:hover,
+.static-menu li a:focus {
+    background-color: var(--colors-fill-secondary-hover) !important;
+    color: var(--colors-text-primary) !important;
 }
 
-.static-menu.UniSA-menu li a i {
+.static-menu li a i {
+    width: auto !important;
     color: inherit !important;
+    font-size: var(--Icon--sm_size, var(--density-spacing-5)) !important;
 }
 
-.tablesaw td[colspan]:hover {
-    background: none !important;
+div.side-links a div {
+    margin: unset !important;
 }
 
-div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current,
-div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current a,
-div.PagePartsH1 table.PagePartsH1 table.WebPart td.WebPartBody div.resources-tabs ul.resources-subheader li.current a:visited {
-    background-color: #6c757d !important;
+:focus {
+    outline: none !important;
 }
 
-.resources-tabs {
-    background-color: #4f555a !important;
+.service-status-container span.fal.fa-check-circle {
+    color: var(--colors-icon-success) !important;
+}
+
+.service-status-container span.fal.fa-exclamation-circle {
+    color: var(--colors-icon-warning) !important;
+}
+
+.service-status-container span.fal.fa-times-circle {
+    color: var(--colors-icon-critical) !important;
+}
+
+ul.Links .fa-info-circle,
+#ctl00_ctl00_wpManager_wpStudentAcademicRecord_allProgramPanels_ctl00_gpaUpdate>i {
+    color: var(--colors-icon-informational) !important;
 }
 
 table.tablesaw tr:hover td,
 table.tablesaw tr:focus td {
-    background-color: transparent !important;
+    background: none !important;
 }
 
-div#student-awareness a#pausePlay,
-#slideshow-nav a {
-    background-color: #6C757D !important;
-    border-radius: 50% !important;
-    margin-top: 5px !important;
-    height: 10px !important;
-    width: 10px !important;
-    margin: 0 2px !important;
-    font-size: 0 !important;
-}
-
-.WebPartBody {
-    padding: 15px 15px 5px 15px !important;
-}
-
-#student-awareness.slideshow-v2 {
-    margin: 0 !important;
+.search-container input#search-field {
+    align-items: center !important;
+    border-color: var(--colors-border-default) !important;
+    border-style: solid !important;
+    display: flex !important;
+    border-radius: var(--density-border-radius-round) !important;
+    gap: var(--density-spacing-2) !important;
+    border-width: var(--density-border-width-0-25) !important;
+    color: var(--colors-text-primary) !important;
+    justify-content: center !important;
+    padding: var(--density-spacing-4) !important;
+    background: var(--colors-fill-input-default) !important;
+    transition: color var(--common-duration-fast) ease, background-color var(--common-duration-fast) ease, border-color var(--common-duration-fast) ease, outline-color var(--common-duration-fast) ease, opacity var(--common-duration-fast) ease !important;
+    vertical-align: middle !important;
 }
 
 .WebPartVerbs,
 .moodleicon {
     filter: brightness(0) invert(1) !important;
-}
-
-.service-status-container span.fal.fa-check-circle {
-    color: #198754 !important;
-}
-
-.service-status-container span.fal.fa-exclamation-circle {
-    color: #ffc107 !important;
-}
-
-.service-status-container span.fal.fa-times-circle {
-    color: #dc3545 !important;
 }

@@ -1,7 +1,7 @@
 {
     "name": "UniSA Dark Mode",
-    "version": "1.3.6",
-    "description": "An extension that provides dark-mode for University of South Australia LearnOnline.",
+    "version": "2.0.0",
+    "description": "An extension that provides dark-mode for University of South Australia services.",
     "manifest_version": 3,
     "icons": {
         "128": "icon.png"
@@ -10,9 +10,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://lo.unisa.edu.au/*",
-                "https://my.unisa.edu.au/Student/Portal/*",
-                "https://my.unisa.edu.au/student/portal/*"
+                "https://*.unisa.edu.au/*"
             ],
             "js": [
                 "main.js"
@@ -24,12 +22,10 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "css/*",
-                "img/*"
+                "css/*"
             ],
             "matches": [
-                "https://lo.unisa.edu.au/*",
-                "https://my.unisa.edu.au/*"
+                "https://*.unisa.edu.au/*"
             ],
             "extension_ids": []
         }
